@@ -2,6 +2,20 @@
 .sobre-section {
     color: black;
     height: 150vh;
+    /* TETSE PARA IMAGEM NO FUNDO DO BACKGROUND */
+    background-image:
+        url("../../images/Raio.png"),
+        url("../../images/Raio 2.png");
+
+    /* Define as posições e especificações das imagens no background*/
+    background-position: right center, left center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+hr {
+    width: 90vw;
+    margin-top: 80px;
+    border: 3px solid #f3c743;
 }
 
 .section-title {
@@ -51,12 +65,6 @@
     align-items: center;
     align-content: space-between;
     padding: 60px;
-}
-
-hr {
-    width: 90vw;
-    margin-top: 80px;
-    border: 3px solid #f3c743;
 }
 
 .sobre-title {

@@ -11,13 +11,16 @@ import './Carrossel.css';
 import img1 from '../../images/Joshua and Henrique.png';
 import img2 from '../../images/Jorge chegando.png';
 import img3 from '../../images/Manuel e Poker Guy.png';
+import img4 from '../../images/Joshua apresentação.png';
+
 
 // Imagens que vão passar no Carrossel
 const data = [
     // Precisa consertar
     {id: '1', image: img1},
     {id: '2', image: img2},
-    {id: '3', image: img3}
+    {id: '3', image: img3},
+    {id: '4', image: img4}
 ]
 
 const Carrossel = () => {
