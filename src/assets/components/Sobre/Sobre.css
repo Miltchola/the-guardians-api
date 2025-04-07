@@ -1,0 +1,120 @@
+
+.sobre-section {
+    color: black;
+    height: 150vh;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0.5rem 0;
+    margin: 0;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sobre-title:hover {
+    color: #f3c743;
+}
+
+.sobre-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #f3c743;
+    transition: width 0.3s ease;
+}
+
+.sobre-title:hover::after {
+    width: 100%;
+}
+
+
+/* Estilização do conteúdo do Sobre */
+.sobre-content{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding: 60px;
+}
+
+hr {
+    width: 90vw;
+    margin-top: 80px;
+    border: 3px solid #f3c743;
+}
+
+.sobre-title {
+    color: black;
+    margin: 32px 0 18px 0;
+}
+
+/* Lado Esquerdo (Capa) */
+.content-left {
+    margin-left: 28px;
+}
+
+.capa {
+    width: 400px;
+    height: auto;
+    border-radius: 28px;
+    transition: all ease 0.5s;
+}
+
+.capa:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+/* Lado Direito (Texto e botão) */
+.content-right {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.content-title {
+    margin-bottom: 80px;
+    font-size: 32px;
+}
+
+.content-paragraph {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.content-button {
+    margin-top: 26px;
+    height: 60px;
+    width: 220px;
+
+    background-color: rgb(243, 199, 68);
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.content-button:hover {
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    border: solid 6px #f3c743;
+}
