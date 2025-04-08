@@ -3,7 +3,7 @@ import './ProdutosLista.css';
 
 // Volume + Posters::
 import img1 from '../../assets/Produtos/THE GUARDIANS CAPA (Remake).jpg';
-import img2 from '../../assets/Produtos/Just Chilling.jpg';
+import img2 from '../../assets/Produtos/Just chilling.jpg';
 import img3 from '../../assets/Produtos/Joshua Jones Poster.png';
 import img4 from '../../assets/Produtos/Jade fanart Poster.jpg';
 import img5 from '../../assets/Produtos/Joshua Jones J.J.jpg';
