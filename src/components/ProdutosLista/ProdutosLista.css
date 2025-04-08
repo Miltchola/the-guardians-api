@@ -1,0 +1,105 @@
+
+.produtos-section {
+    margin-bottom: 40px;
+    color: black;
+}
+
+/* Pedaço parecido às outras seções do site*/
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0.5rem 0;
+    margin-top: 24px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.produtos-title:hover {
+    color: #f3c743;
+}
+
+.produtos-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #f3c743;
+    transition: width 0.3s ease;
+}
+
+.produtos-title:hover::after {
+    width: 100%;
+}
+
+.produtos-subtitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 4px;
+    text-align: center;
+    max-width: 800px;
+}
+
+/* Parte da Organização dos Cards */
+.produtos-lista {
+    display: grid;
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 16px;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Ajusta automaticamente o número de colunas */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens no topo da linha */
+    margin: 0 auto; /* Centraliza o grid na tela */
+    
+    max-width: 1200px; /* Limita a largura máxima do grid */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+}
+
+.produto-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 320px; /* Limite para os cards */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.produto-card:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 720px) {
+    .produtos-title {
+        font-size: 2rem;
+    }
+
+    .produtos-subtitle {
+        font-size: 1rem;
+        padding: 0 16px;
+    }
+
+    .produto-card {
+        padding: 12px;
+    }
+
+    .produtos-lista {
+        padding: 16px;
+        gap: 16px;
+    }
+}
