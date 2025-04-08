@@ -26,7 +26,7 @@ const ProdutosLista: React.FC = () => {
         {
             id: 1,
             nome: "Volume 1 - The Hero",
-            descricao: "Descrição do Volume 1",
+            descricao: "Contém os Capítulos 1 a 6 da História + 1 Capítulo extra",
             preco: 30.90,
             imagem: img1,
             categoria: "Volume",

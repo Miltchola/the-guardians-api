@@ -11,7 +11,7 @@ interface ProdutoProps {
     quantidade: number;
 }
 
-const Produto: React.FC<ProdutoProps> = ({ id, nome, descricao, preco, imagem, categoria, quantidade }) => {
+const Produto: React.FC<ProdutoProps> = ({ /*/id, */nome, /*descricao,*/ preco, imagem, categoria, /*quantidade*/ }) => {
     return (
         <div className="produto-card">
             <img src={imagem} alt={nome} className="produto-imagem" />
