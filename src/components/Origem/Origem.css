@@ -148,3 +148,130 @@ hr {
     color: black;
     margin: 18px 0 32px 0 ;
 }
+
+/* RESPONSIVIDADEEE */
+
+/* Responsividade pra tablets */
+@media (max-width: 1024px) {
+    .section-1,
+    .section-2,
+    .section-3 {
+        padding: 40px 100px !important;
+    }
+    
+    .section-1-image,
+    .section-2-image,
+    .section-3-image {
+        height: 400px;
+    }
+    
+    .section-1-right,
+    .section-2-left,
+    .section-3-right {
+        padding: 0 40px !important;
+    }
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+    .origem-section {
+        padding-bottom: 40px;
+    }
+    
+    .origem-title {
+        font-size: 2.2rem;
+        margin-top: 20px;
+    }
+    
+    hr {
+        margin-top: 60px;
+    }
+    
+    .section-1,
+    .section-2,
+    .section-3 {
+        flex-direction: column;
+        padding: 30px 20px !important;
+    }
+    
+    /* Imagens */
+    .section-1-image,
+    .section-2-image,
+    .section-3-image {
+        height: auto;
+        width: 80%;
+        max-width: 350px;
+        margin-bottom: 30px;
+        border-radius: 20px !important;
+    }
+    
+    /* Textos */
+    .section-1-right,
+    .section-2-left,
+    .section-3-right {
+        padding: 0 20px !important;
+        text-align: center;
+        order: 2;
+    }
+    
+    .section-2-left {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    
+    .section-1-title,
+    .section-2-title,
+    .section-3-title {
+        font-size: 1.8rem;
+        margin: 10px 0 20px 0;
+    }
+    
+    .section-1-paragraph,
+    .section-2-paragraph,
+    .section-3-paragraph {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+/* pra telas muito pequenas */
+@media (max-width: 480px) {
+    .origem-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-1,
+    .section-2,
+    .section-3 {
+        padding: 20px 10px !important;
+    }
+    
+    .section-1-image,
+    .section-2-image,
+    .section-3-image {
+        width: 90%;
+        border-radius: 15px !important;
+    }
+    
+    .section-1-title,
+    .section-2-title,
+    .section-3-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-1-paragraph,
+    .section-2-paragraph,
+    .section-3-paragraph {
+        font-size: 0.9rem;
+    }
+    
+    /* Remove hover effects em mobile */
+    .section-1-image:hover,
+    .section-2-image:hover,
+    .section-3-image:hover {
+        transform: none;
+        box-shadow: none;
+        border-radius: 15px !important;
+    }
+}

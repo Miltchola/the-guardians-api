@@ -1,14 +1,14 @@
 
 .sobre-section {
     color: black;
-    height: 160vh;
+    height: 170vh;
     /* TETSE PARA IMAGEM NO FUNDO DO BACKGROUND */
     background-image:
         url("../../assets/images/Lightning asset.png"),
         url("../../assets/images/Lightning asset 2.png");
 
     /* Define as posições e especificações das imagens no background*/
-    background-position: right center, left center;
+    background-position: right top, left top;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -131,4 +131,88 @@ hr {
     color: black;
     border: solid 6px #f3c743;
     transform: scale(1.05);
+}
+
+/* Responsividade da seção */
+/* Tablets e etc */
+@media (max-width: 768px) {
+    .sobre-section {
+        height: auto; /* Remove altura fixa */
+        padding-bottom: 40px; /* Adiciona espaço na parte inferior */
+        background-image: none; /* Remove imagens de fundo em mobile se necessário */
+    }
+
+    .sobre-content {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        padding: 20px;
+    }
+
+    .content-left {
+        margin-left: 0;
+        margin-bottom: 30px; /* Espaço entre imagem e texto */
+        text-align: center; /* Centraliza a imagem */
+    }
+
+    .capa {
+        width: 80%; /* Imagem ocupa 80% da largura */
+        max-width: 300px; /* Limite máximo para não ficar muito grande */
+        height: auto;
+    }
+
+    .content-right {
+        padding: 0 20px; /* Reduz padding lateral */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .content-title {
+        font-size: 24px;
+    }
+
+    .content-subtitle {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .content-paragraph {
+        font-size: 14px;
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .content-button {
+        margin-top: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 16px;
+    }
+}
+
+/* Ajustes para telas muito pequenas (menos de 480px) */
+@media (max-width: 480px) {
+    .sobre-title {
+        font-size: 2rem; /* Reduz tamanho do título */
+    }
+
+    .capa {
+        width: 90%; /* Aumenta um pouco a imagem */
+    }
+
+    .content-title {
+        font-size: 20px;
+    }
+
+    .content-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .content-paragraph {
+        font-size: 13px;
+        line-height: 1.5; /* Melhora legibilidade */
+    }
+
+    .content-button {
+        width: 180px;
+        font-size: 15px;
+    }
 }

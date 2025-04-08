@@ -8,9 +8,9 @@ import 'swiper/css/pagination';
 import './Carrossel.css';
 
 //  Importando as imagens do Projeto
-import img1 from '../../assets/images/Joshua and Henrique.png';
-import img2 from '../../assets/images/Jorge chegando.png';
-import img3 from '../../assets/images/Manuel e Poker Guy.png';
+import img1 from '../../assets/images/Joshua e Henrique.jpg';
+import img2 from '../../assets/images/Jorge chegando.jpg';
+import img3 from '../../assets/images/Manuel e Poker Guy.jpg';
 import img4 from '../../assets/images/Joshua apresentação.png';
 
 
