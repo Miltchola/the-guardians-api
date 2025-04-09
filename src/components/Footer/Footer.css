@@ -15,11 +15,43 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    gap: 15px; /* Espaçamento entre os ícones */
+    gap: 20px; /* Espaçamento entre os ícones */
 }
 
+.social-media-link {
+    color: #ecf0f1;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo do Insta/Webtoon */
 .logo {
     width: 50px;
     height: auto;
     margin-bottom: 10px;
+}
+
+.media-text {
+    font-weight: 200;
+    margin-left: 8px;
+    color: white;
+}
+
+/* Logo de The Guardians*/
+.logo-icon {
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.logo-text{
+    margin-left: 10px;
+    height: 45px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+/* Linha divisória */
+.hr-section {
+    margin-top: 20px;
 }

@@ -1,4 +1,3 @@
-
 .origem-section {
     color: black;
 }
@@ -192,6 +191,7 @@ hr {
     .section-3 {
         flex-direction: column;
         padding: 30px 20px !important;
+        align-items: center; /* Centraliza os itens dentro da seção */
     }
     
     /* Imagens */
@@ -203,6 +203,9 @@ hr {
         max-width: 350px;
         margin-bottom: 30px;
         border-radius: 20px !important;
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        margin-left: auto; /* Centraliza horizontalmente */
+        margin-right: auto; /* Centraliza horizontalmente */
     }
     
     /* Textos */
