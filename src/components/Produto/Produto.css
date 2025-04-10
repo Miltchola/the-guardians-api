@@ -1,4 +1,4 @@
-
+/* Estilos existentes do produto-card (mantidos) */
 .produto-card {
     position: relative;
     width: 300px;
@@ -6,11 +6,15 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: white;
+    transition: transform 0.3s ease;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
 }
 
 .produto-card img {
@@ -45,20 +49,149 @@
     margin-top: 12px;
     width: 60%;
     height: 50px;
-    
     background-color: rgb(243, 199, 68);
     color: black;
     font-size: 16px;
     font-weight: 700;
-
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
 }
 
 .produto-card .produto-info .produto-button:hover {
-    border: none;
     background-color: #ffffff;
-    color: black;
-    border: solid 4px #f3c743;
+    border: 3px solid #f3c743;
     transform: scale(1.05);
+}
+
+
+/* PARTE DO MODAAAL */
+.produto-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    z-index: 1000; /* Faz o modal ficar acima dos outros elementos */
+}
+
+.produto-modal {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.produto-modal-imagem-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.produto-modal-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.produto-modal-info {
+    padding: 20px;
+    color: #333;
+}
+
+.produto-modal-nome {
+    font-size: 2rem;
+    margin: 0 0 10px;
+    color: #1a1a1a;
+}
+
+.produto-modal-categoria {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 0 15px;
+}
+
+.produto-modal-descricao {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.produto-modal-preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f3c743;
+    margin: 0 0 10px;
+}
+
+.produto-modal-quantidade {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.produto-modal-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.produto-modal-button-comprar {
+    flex: 1;
+    padding: 12px;
+    background-color: #f3c743;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.produto-modal-button-comprar:hover {
+    transform: scale(1.05);
+}
+
+.produto-modal-button-fechar {
+    flex: 1;
+    padding: 12px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.produto-modal-button-fechar:hover {
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .produto-modal {
+        flex-direction: row;
+    }
+    
+    .produto-modal-imagem-container {
+        width: 50%;
+        height: auto;
+    }
+    
+    .produto-modal-info {
+        width: 50%;
+        padding: 30px;
+    }
 }

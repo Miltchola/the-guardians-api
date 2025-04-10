@@ -53,5 +53,22 @@
 
 /* Linha divisória */
 .hr-section {
+    align-items: center;
+    align-content: center;
     margin-top: 20px;
+}
+
+/* Responsividade do Footer */
+@media (max-width: 768px) {
+    .footer-section{
+        margin: 0;
+        align-items: center;
+        align-content: center;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
 }
