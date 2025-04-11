@@ -133,6 +133,61 @@ hr {
     transform: scale(1.05);
 }
 
+
+/* Tive que ajustar a responsividade aqui */
+@media (max-width: 1040px) {
+    .sobre-section {
+        height: auto; 
+        padding-bottom: 40px; 
+        background-image: none; /* Remove imagens de fundo em mobile */
+    }
+
+    .sobre-content {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        padding: 20px;
+    }
+
+    .content-left {
+        margin-left: 0;
+        margin-bottom: 30px; 
+        text-align: center; 
+    }
+
+    .capa {
+        width: 80%; 
+        max-width: 300px; /* Limite máximo pra não ficar muito grande */
+        height: auto;
+    }
+
+    .content-right {
+        padding: 0 20px; 
+        text-align: center; 
+    }
+
+    .content-title {
+        font-size: 24px;
+    }
+
+    .content-subtitle {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .content-paragraph {
+        font-size: 14px;
+        text-align: center; 
+    }
+
+    .content-button {
+        margin-top: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 16px;
+    }
+}
+
+
 /* Responsividade da seção */
 /* Tablets e etc */
 @media (max-width: 768px) {

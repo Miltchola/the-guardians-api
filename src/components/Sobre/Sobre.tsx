@@ -21,9 +21,10 @@ const Sobre = () => {
 
                     <p className='content-paragraph'>
                         Durante a construção da civilização humana, entidades que representam
-                        conceitos e ideias presentes na sociedade foram criadas - algumas boas
-                        e outras más. Essas entidades se encarnaram em humanos, dando eles
-                        poderes sobrehumanos e a capacidade de moldar o desenvolvimento da sociedade.
+                        conceitos e ideias presentes na sociedade foram criadas.
+                        Essas entidades se encarnaram em humanos, dando eles
+                        super poderes, fazendo com que possam influenciar
+                        o desenvolvimento da sociedade - tanto pro bem quanto pro mal.
                         <br></br>
                         <br></br>
                         <strong>Joshua Jones</strong> - um jovem imprudente de 17 anos que vive arrastando seu

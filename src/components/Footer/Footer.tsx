@@ -11,12 +11,12 @@ const Footer = () => {
     return (
         <div className="footer-section">
             <div className="social-media">
-                <a className="social-media-link" href="">
+                <a className="social-media-link" href="https://www.instagram.com/the.guardians.official/">
                     <img className="logo" src={insta} alt="Instagram Logo" />
                     <h4 className="media-text">@the.guardians.official</h4>
                 </a>
                 
-                <a className="social-media-link" href="">
+                <a className="social-media-link" href="https://www.webtoons.com/en/canvas/the-guardians-protectors-of-mankind/list?title_no=702490">
                     <img className="logo" src={webtoon} alt="Webtoon Logo" />
                     <h4 className="media-text">The Guardians - Protectors of Mankind</h4>
                 </a>
