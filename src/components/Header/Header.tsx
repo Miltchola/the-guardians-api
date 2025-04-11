@@ -21,7 +21,6 @@ const Header = () => {
         <img className="logo-text" src= {logoTexto} alt="Logo The Guardians" />
       </div>
       
-      {/* Fazer depois a implementação do funcionamento das seções */}
       <div className="navigation-section">
 
         <h3 

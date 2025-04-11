@@ -1,7 +1,7 @@
 /* Container principal */
 .carrossel-container {
     width: 100%;
-    margin-top: 72px; /* Paa compensar o header fixo */
+    margin-top: 72px; /* Pra compensar o header fixo */
     position: relative;
 }
 
@@ -42,7 +42,7 @@
 @media (max-width: 768px) {
     .carrossel-container {
         width: 100%;
-        margin-top: 120px; /* Paa compensar o header fixo */
+        margin-top: 120px; /* Pra compensar o header fixo */
         position: relative;
     }
     .slide-item {

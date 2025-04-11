@@ -59,9 +59,9 @@
     padding: 16px;
 
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Ajusta automaticamente o número de colunas */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Alinha os itens no topo da linha */
-    margin: 0 auto; /* Centraliza o grid na tela */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     
     max-width: 1200px; /* Limita a largura máxima do grid */
     box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
@@ -95,7 +95,7 @@
 
     .produto-card {
         padding: 12px;
-        margin: 0 auto; /* Centraliza os cards horizontalmente */
+        margin: 0 auto;
     }
 
     .produtos-lista {

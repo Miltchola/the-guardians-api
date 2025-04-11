@@ -137,9 +137,9 @@ hr {
 /* Tablets e etc */
 @media (max-width: 768px) {
     .sobre-section {
-        height: auto; /* Remove altura fixa */
-        padding-bottom: 40px; /* Adiciona espaço na parte inferior */
-        background-image: none; /* Remove imagens de fundo em mobile se necessário */
+        height: auto; 
+        padding-bottom: 40px; 
+        background-image: none; /* Remove imagens de fundo em mobile */
     }
 
     .sobre-content {
@@ -149,19 +149,19 @@ hr {
 
     .content-left {
         margin-left: 0;
-        margin-bottom: 30px; /* Espaço entre imagem e texto */
-        text-align: center; /* Centraliza a imagem */
+        margin-bottom: 30px; 
+        text-align: center; 
     }
 
     .capa {
-        width: 80%; /* Imagem ocupa 80% da largura */
-        max-width: 300px; /* Limite máximo para não ficar muito grande */
+        width: 80%; 
+        max-width: 300px; /* Limite máximo pra não ficar muito grande */
         height: auto;
     }
 
     .content-right {
-        padding: 0 20px; /* Reduz padding lateral */
-        text-align: center; /* Centraliza o conteúdo */
+        padding: 0 20px; 
+        text-align: center; 
     }
 
     .content-title {
@@ -176,7 +176,7 @@ hr {
 
     .content-paragraph {
         font-size: 14px;
-        text-align: center; /* Centraliza o texto */
+        text-align: center; 
     }
 
     .content-button {
@@ -187,10 +187,10 @@ hr {
     }
 }
 
-/* Ajustes para telas muito pequenas (menos de 480px) */
+/* Ajustes para telas muito pequenas */
 @media (max-width: 480px) {
     .sobre-title {
-        font-size: 2rem; /* Reduz tamanho do título */
+        font-size: 2rem; 
     }
 
     .capa {
@@ -208,7 +208,7 @@ hr {
 
     .content-paragraph {
         font-size: 13px;
-        line-height: 1.5; /* Melhora legibilidade */
+        line-height: 1.5; 
     }
 
     .content-button {

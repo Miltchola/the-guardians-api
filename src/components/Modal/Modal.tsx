@@ -1,4 +1,3 @@
-// components/Modal/Modal.tsx
 import React, { useRef, useEffect } from 'react';
 import './Modal.css';
 
@@ -19,7 +18,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
     };
 
     // Adiciona o evento SÓ se o modal estiver aberto
-    // Isso evita que o evento seja adicionado quando o modal não está visível
+    // Isso evita que o evento seja adicionado quando o modal não tá visível
     if (isOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     }

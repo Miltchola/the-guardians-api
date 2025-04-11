@@ -17,7 +17,7 @@ import img5 from '../../assets/images/Nicolas, Henrique e Jade.jpg'
 
 // Imagens que vão passar no Carrossel
 const data = [
-    // Precisa consertar
+    // Adicionar mais no futuro
     {id: '1', image: img1},
     {id: '2', image: img2},
     {id: '3', image: img3},
@@ -35,7 +35,7 @@ const Carrossel = () => {
                 pagination={{ clickable: true }}
                 navigation
                 loop={true}
-                autoplay={{ delay: 4000 }} // O autoplay não está funcionando :(
+                autoplay={{ delay: 4000 }}
             >
                 {data.map((item) => (
 

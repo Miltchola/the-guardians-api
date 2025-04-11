@@ -20,7 +20,18 @@ const Sobre = () => {
                     <h6 className='content-subtitle'>Volume 1 - The Hero</h6>
 
                     <p className='content-paragraph'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod tempora fugit, earum nihil molestias nisi dolorem possimus, repellendus illo est cupiditate eos voluptates explicabo commodi, non pariatur veniam! Molestiae!
+                        Durante a construção da civilização humana, entidades que representam
+                        conceitos e ideias presentes na sociedade foram criadas - algumas boas
+                        e outras más. Essas entidades se encarnaram em humanos, dando eles
+                        poderes sobrehumanos e a capacidade de moldar o desenvolvimento da sociedade.
+                        <br></br>
+                        <br></br>
+                        <strong>Joshua Jones</strong> - um jovem imprudente de 17 anos que vive arrastando seu
+                        melhor amigo, <strong>Henrique Marques</strong>, para problemas na cidade de Salvador -
+                        descobre que é portador de uma dessas entidades. Com isso, ele precisa
+                        descobrir a origem de seu poder e lutar contra as forças do mal para proteger
+                        a humanidade do <strong>Apocalipse</strong>.
+
                     </p>
                     <button className='content-button'>Comprar Volume</button>
                 </div>
