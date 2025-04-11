@@ -1,16 +1,5 @@
 # React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-# TERMINAR README !!!
-
-
+# Milton Kiefer de Albuquerque Mello
 # The Guardians - Protectors of Mankind Website:
 
 Este projeto é uma Landing Page de uma história em quadrinhos chamada de The Guardians - Protectors of Mankind, desenvolvida por eu, Milton Kiefer de Albuquerque Mello. Essa Landing Page tem o proposito de introduzir de maneira mais adequada o projeto no qual eu e alguns amigos estivemos trabalhando durante anos.
@@ -27,7 +16,7 @@ Ao ter Node.js e o projeto baixado, é necessário abrir executar no terminal do
 
 npm install
 
-Após as seguintes instalações do React + Vite + Typescript, é necessário executar no terminal o seguinte comando para baixar as importações do Swiper:
+Após a execução do comando acima, todas as dependências do códgio serão instaladas, inclusive o Swiper que foi instalado com o comando:
 
 npm install swiper
 
@@ -38,8 +27,19 @@ npm run dev
 
 # Como Utilizar o Projeto:
 
-TENHO Q FAZER AAAAAAAAAAAA
+Para utilizar meu código, acesse meu repositório disponível em https://github.com/Miltchola/the-guardians-api
 
+Em seguida clone meu repositório com:
+
+git clone https://github.com/Miltchola/the-guardians-api.git
+
+Instale as dependências:
+
+npm install
+
+E ele já está pronto para ser executado:
+
+npm run dev
 
 # Possíveis mudanças no futuro
 

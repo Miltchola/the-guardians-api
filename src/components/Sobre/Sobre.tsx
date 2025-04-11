@@ -2,6 +2,13 @@ import './Sobre.css'
 
 import capa from '../../assets/images/THE GUARDIANS CAPA (Remake).jpg'
 
+const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId.replace('#', ''));
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
 const Sobre = () => {
     return (
         <div className="sobre-section">
@@ -34,7 +41,10 @@ const Sobre = () => {
                         a humanidade do <strong>Apocalipse</strong>.
 
                     </p>
-                    <button className='content-button'>Comprar Volume</button>
+                    <button className='content-button'
+                        onClick={() => scrollToSection('#produtos')}
+                        >Comprar Volume
+                    </button>
                 </div>
             </div>
         </div>
